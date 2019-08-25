@@ -1,3 +1,16 @@
+
+Sandbox
+
+Goals -
+
+figure out VUE routing and auth
+multiple single page components
+don't die from overload
+
+
+https://github.com/sqreen/vue-authentication-example
+https://blog.sqreen.com/authentication-best-practices-vue/
+
 # ASP.NET Core & Vue.js Starter
 
 Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), Web API, Vuex state manangement and other best-practices baked in!
