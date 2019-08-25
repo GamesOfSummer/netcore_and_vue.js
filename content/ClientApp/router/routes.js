@@ -44,27 +44,31 @@ export const routes = [
     path: '/',
     component: HomePage,
     display: 'Home',
-    icon: 'home'
+    icon: 'home',
+    beforeEnter: ifAuthenticated
   },
   {
     name: 'about',
     path: '/about',
     component: About,
     display: 'About Template',
-    icon: 'info'
+    icon: 'info',
+    beforeEnter: ifAuthenticated
   },
   {
     name: 'counter',
     path: '/counter',
     component: CounterExample,
     display: 'Counter',
-    icon: 'graduation-cap'
+    icon: 'graduation-cap',
+    beforeEnter: ifAuthenticated
   },
   {
     name: 'fetch-data',
     path: '/fetch-data',
     component: FetchData,
     display: 'Data',
-    icon: 'list'
+    icon: 'list',
+    beforeEnter: ifAuthenticated
   }
 ];
