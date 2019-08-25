@@ -1,12 +1,11 @@
-
 Sandbox
 
 Goals -
 
 figure out VUE routing and auth
 multiple single page components
+vuetify
 don't die from overload
-
 
 https://github.com/sqreen/vue-authentication-example
 https://blog.sqreen.com/authentication-best-practices-vue/
@@ -25,25 +24,25 @@ Starter Template for ASP.NET Core and Vue.JS (Vue) - with Webpack (with HMR), We
 
 [![Trilon Consulting](https://trilon.io/trilon-logo-clear.png)](https://trilon.io)
 
-
 ### Made with love by [Trilon.io](https://trilon.io)
 
 ---
 
 # Features
 
-- **ASP.NET Core 2.2**
-  - Web API
-- **VueJS 2**
-  - Vuex (State Store)
-- **Webpack**
-  - HMR (Hot Module Replacement/Reloading)
-- **Bootstrap 4**
+-   **ASP.NET Core 2.2**
+    -   Web API
+-   **VueJS 2**
+    -   Vuex (State Store)
+-   **Webpack**
+    -   HMR (Hot Module Replacement/Reloading)
+-   **Bootstrap 4**
 
 # Prerequisites:
- * [.Net Core 2.2](https://www.microsoft.com/net/download/windows)
- * [NodeJS](https://nodejs.org/) >= 10.x
- * [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
+
+-   [.Net Core 2.2](https://www.microsoft.com/net/download/windows)
+-   [NodeJS](https://nodejs.org/) >= 10.x
+-   [VSCode](https://code.visualstudio.com/) (ideally), or VS2017
 
 # Installation:
 
@@ -71,33 +70,37 @@ Now you can open the project via Visual Studio or VSCode, press F5 to run the ap
 
 Note:
 
-* This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
-* ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
-   * This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
+-   This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
+-   ([Official documentation](https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet-new?tabs=netcore2x))
+    -   This will automatically run `dotnet restore` unless you install with `dotnet new vuejs --skipRestore`
 
 ### -OR- Clone this Repo itself
 
- * Clone this repository : `$ git clone https://github.com/MarkPieszak/aspnetcore-Vue-starter.git VueWeb`
- * `$ cd VueWeb/content`
- * `$ dotnet restore && npm install`
- * (If using VSCode) `$ code .`
- * (If using Visual Studio) Open the `*.sln` file with "Open project" from Visual Studio IDE
-
+-   Clone this repository : `$ git clone https://github.com/MarkPieszak/aspnetcore-Vue-starter.git VueWeb`
+-   `$ cd VueWeb/content`
+-   `$ dotnet restore && npm install`
+-   (If using VSCode) `$ code .`
+-   (If using Visual Studio) Open the `*.sln` file with "Open project" from Visual Studio IDE
 
 ## Start the application:
+
 You have two choices when it come at how your preffer to run it. You can either use the command line or the build-in run command.
 
 ### 1. Using the command line
+
 Run the application using `dotnet run` or `npm run dev`
-- note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
+
+-   note `dotnet run` should be run in `Development` environment for hot reloading. This setting can be set either within the command line or via the `launchSettings.json` available in the `Properties` folder.
 
 ### 2. Using the built-in run command
+
 Run the application in VSCode or Visual Studio 2017 by hitting `F5`.
 
 ## View your application running
+
 When running the app using debug menu or `F5` VS open auto the app in the browser;
 
-----
+---
 
 # Demo of Application Running
 
@@ -107,7 +110,7 @@ When running the app using debug menu or `F5` VS open auto the app in the browse
 
 # Recommended plugin for debugging VueJS
 
-- Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
+-   Get Chrome DevTools for VueJS [here](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
 
 ---
 
@@ -120,7 +123,7 @@ Please note that this project is released with a [Contributor Covenant Code of C
 
 _Looking for ASP.NET Core & Angular 7.x+ Universal starter? [click here](https://github.com/TrilonIO/aspnetcore-angular-universal)_
 
-----
+---
 
 # License
 
@@ -130,7 +133,7 @@ Copyright (c) 2016-2019 [Mark Pieszak](https://github.com/MarkPieszak)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/MarkPieszak.svg?style=social)](https://twitter.com/MarkPieszak)
 
-----
+---
 
 # Trilon - Vue, Asp.NET, NodeJS - Consulting | Training | Development
 
@@ -139,7 +142,6 @@ Check out **[Trilon.io](https://Trilon.io)** for more info!
 Contact us at **hello@trilon.io**, and let's talk about your projects needs.
 
 [![Trilon Consulting](https://trilon.io/trilon-logo-clear.png)](https://trilon.io)
-
 
 ## Follow Trilon online:
 

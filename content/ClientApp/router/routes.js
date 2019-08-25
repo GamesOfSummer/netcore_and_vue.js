@@ -4,6 +4,25 @@ import HomePage from 'components/home-page';
 import About from 'components/about';
 
 import Login from 'components/Login/Login';
+import Logout from 'components/Logout/Logout';
+
+import store from '../store';
+
+const ifNotAuthenticated = (to, from, next) => {
+  if (!store.getters.isAuthenticated) {
+    next();
+    return;
+  }
+  next('/');
+};
+
+const ifAuthenticated = (to, from, next) => {
+  if (store.getters.isAuthenticated) {
+    next();
+    return;
+  }
+  next('/login');
+};
 
 export const routes = [
   {
@@ -11,6 +30,13 @@ export const routes = [
     path: '/login',
     component: Login,
     display: 'Login',
+    icon: 'list'
+  },
+  {
+    name: 'Logout',
+    path: '/logout',
+    component: Logout,
+    display: 'Logout',
     icon: 'list'
   },
   {
